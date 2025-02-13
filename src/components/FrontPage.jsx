@@ -3,7 +3,7 @@ import Lottie from "react-lottie";
 import { Link } from "react-router-dom";
 import heartAnimation from "../assets/floating_hearts.json";
 
-function frontPage() {
+function FrontPage() {
   const [text, setText] = useState("");
   const sentence =
     "We have known each other from a long time and, today I have something important to tell you...\n";
@@ -86,4 +86,4 @@ function frontPage() {
   );
 }
 
-export default frontPage;
+export default FrontPage;

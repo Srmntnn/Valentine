@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import reactLogo from "./assets/react.svg";
 import { Divide, Loader } from "lucide-react";
 import LoadingSpinner from "./components/LoadingSpinner";
-import FrontPage from "./components/frontPage";
+import FrontPage from "./components/FrontPage";
 import Envelope from "./components/Envelope";
 import Ask from "./components/Ask";
 import EndPage from "./components/EndPage";
